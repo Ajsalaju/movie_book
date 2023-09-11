@@ -1,0 +1,62 @@
+name: moviebook
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.3.6
+  carousel_slider: ^4.2.1
+  dio: ^5.3.2
+  smooth_page_indicator: ^1.1.0
+  lite_rolling_switch: ^1.0.1
+  toggle_switch: ^2.1.0
+  percent_indicator: ^4.2.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/iconimage/32237314-film-icon.jpg"
+  min_sdk_android: 24
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/gif/
+    - assets/loginimages/
+    - assets/homepagescreen/
+    - assets/fonts/
+
+  fonts:
+    - family: Sans
+      fonts:
+        - asset: assets/fonts/DMSans-VariableFont_opsz,wght.ttf
+          weight: 500
+    
+    - family: blackops
+      fonts:
+        - asset: assets/fonts/BlackOpsOne-Regular.ttf
+          weight: 400  
+
+    - family: Bitter
+      fonts:
+        - asset: assets/fonts/Bitter-VariableFont_wght.ttf
+          weight: 700
+    
+    - family: Rem 
+      fonts:
+        - asset: assets/fonts/REM-VariableFont_wght.ttf
+          weight: 700
